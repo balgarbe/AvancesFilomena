@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="formato.css"> 
+</head>
+<body class="fondoContacto">
+    <header></header>
+    <section class="contacto">
+
+    <form class="contacto-form" action="">
+        <fieldset class="">
+        
+            <legend> Formulario Consulta</legend>
+            <div>
+            <label for="name">Nombre</label>
+            <input class="contacto-form__input" id="name" type="text" name="name" placeholder="Ingresa tu nombre" required>
+            </div>
+            
+            <label for="apellido"> Apellido</label>
+            <input class="contacto.form__input" id="apellido" type="text" name="apellido" placeholder="Ingresa tu apellido" required>
+        
+           <div>
+            <label for="tipo"> Tipo de Evento: </label>
+            <select name="tipo" id="tipo">
+                <option value="infantil"> Infantil</option>
+                <option value="social"> Social</option>
+                <option value="personalizado">Personalizado</option>
+            </select>
+        </div>
+
+ 
+            <div>
+            <label for="consulta"> Escribí tu consulta</label>
+        </div>
+
+            <textarea name="consulta" id="consulta" cols="30" rows="3" maxlength="500"></textarea>
+
+            <div>Eventos</div>
+            <label for="infantil">Evento Infantil</label>
+            <input type="checkbox" id="infantil" name="cbox1"> 
+            <label for="social">Evento Social</label>
+            <input type="checkbox" id="social" name="cbox2"> 
+            <label for="personalizado">Evento Personalizado</label>
+            <input type="checkbox" id="personalizado" name="cbox3"> 
+            
+
+            
+    
+            <div>
+            <input class="btnEnviar" type="submit" value="Enviar">
+            <input type="reset" value="Limpiar formulario">
+        </div>
+        </fieldset>
+    </form>
+     </section>
+    
+</body>
+</html>
